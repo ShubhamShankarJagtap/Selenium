@@ -2,23 +2,22 @@ package com.basic;
 
 public class Factorial {
 
-   static private int factorial(int number){
+    static private int factorial(int number) {
 
-    
-    int fact=1;
+        int fact = 1;
 
-    for(int i=1;i<=number;i++){
-        
-        fact = number*i; 
+        for (int i = 1; i <= number; i++) {
+
+            fact = number * i;
+        }
+
+        return fact;
     }
-    
 
-    return fact;
-
-        lic static void main(Stri
+    public static void main(String[] args) {
 
         int Fact = factorial(22);
 
-       System.out.println("Factorial of given number is : " + Fact);
+        System.out.println("Factorial of given number is : " + Fact);
     }
 }

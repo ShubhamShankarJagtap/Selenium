@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "com.basic.Factorial",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "ComparatorDemo",
             "request": "launch",
             "mainClass": "com.basic.ComparatorDemo",
